@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Idade</title>
+</head>
+<body>
+    <Script>
+        alert("Seja bem vindo!");
+        const nome = prompt("Diga seu nome");
+        let idade = prompt("Diga sua idade");
+        idade = parseInt(idade);
+
+        let idadePassado = idade -12;
+        let idadeFuturo = idade -28;
+        let faltaMil = 1000 - idade * 3
+
+        alert("Você terá " + idadeFuturo + " anos de idade em 2050.");
+
+        if(idade < 12) alert("Você ainda não tinha nascido em 2010.")
+        else alert("Você tinha " + idadePassado + " anos de idade em 2010")
+
+        alert("Curiosidade: " + faltaMil + " que falta para sua idade multiplicada por 3 para chegar a mil!");
+
+
+    </Script>
+    
+</body>
+</html>
