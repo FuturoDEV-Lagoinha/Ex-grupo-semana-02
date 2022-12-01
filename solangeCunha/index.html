@@ -1,0 +1,35 @@
+/*Criar um software que leia o nome a idade e informe, em 2010 quantos anos ela tinha e em 2050 qauntos anos ela terá. Por fim multiplique a idade por 3 e informe quanto falta para esse número seja 1000*/
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+</head>
+<body>
+    <script>
+        let nome, idade
+        let idadePassado, idadeFuturo, idadeMil
+
+        nome=prompt("Digite seu nome: ")
+        
+        idade=parseInt(prompt("Digite a sua idade: "))
+
+       idadePassado = idade - 12
+
+       idadeFuturo = idade + 28
+
+        alert(`Me chamo ${nome} e tenho ${idade} anos, em 2010 tinha ${idadePassado} e em 2050 terei ${idadeFuturo}`)
+
+
+        idadeDiferencaMil = 1000 - (idade * 3) 
+
+alert(` Mil menos a minha idade triplicada é $`)
+
+
+    </script>
+    
+</body>
+</html>
