@@ -9,7 +9,7 @@ alert("Bem vindo "+nome);*/
 let num = parseInt(prompt("Digite um número: "));
 
 if(num > 50) {
-   alert(  num * 10);
+   alert( num = num * 10);
 }
 if(num < 50){
     while (num < 1000){
