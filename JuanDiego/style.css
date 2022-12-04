@@ -1,0 +1,16 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    text-align: center;
+
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 300%;
+}
+
+body {
+    font-size: small;
+}
