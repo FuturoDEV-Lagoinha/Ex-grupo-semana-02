@@ -8,8 +8,24 @@ body {
     background-color: rgb(222, 216, 216);
 }
 
+.imagens {
+    margin: 100px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.imagens img {
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    
+}
+
 .container {
     background-color: rgb(217, 182, 249);
+    border-radius: 10px;
     box-shadow: 10px 10px 30px 8px rgb(117, 84, 110);
     margin: 100px;
     padding: 30px;
@@ -18,11 +34,12 @@ body {
     
 }
 
-
-
 input {
     display: block;
     margin-bottom: 20px;
     padding: 10px;
     width: 600px;
+    border-radius: 8px;
+    border-style: none;
+    text-transform: lowercase;
 }
