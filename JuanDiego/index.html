@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Exercicios02</title>
 
-        let nome = ""
-        while(nome.length<3){
+</head>
+        <p>Exercícios</p>
+   
+        <header>
+            <img src="https://www.otempo.com.br/image/contentid/policy:1.2378857:1598843704/perguntas-perguntas-jpg.jpg?f=3x2&w=1224" alt="Exercicios 02" width="350px" height="350px" >
             
-            nome = prompt ("qual seu nome")   
-        }
-        alert ("bem vindo" + nome)
+          </header>
+
+<body>
+
+    <script>
+        const nome = prompt("Qual o seu nome?");
+        let idade = prompt("Qual a sua idade?");
+        const Celebridade = prompt("Qual é o nome do seu ídolo");   
+      
+        idade = parseInt(idade);   
         
+        let menos80 = (idade*0,2);
+        
+        //let idade = numero*0,2
+        
+        //let "idade" = idadeNumerica*0,2;
+        
+        //let = "idademenos80:" + idade * 0,2; 
+
+        
+
+        alert(nome + "Ganhou o torneio de guitar hero contra o PRESIDENTE, é uma rivalidade que existe desde que" + nome + "começou a treinar a" + menos80 + "anos");
+
+
+
     </script>
+    
+    
+    
+
 </body>
 </html>
