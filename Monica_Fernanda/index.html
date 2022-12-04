@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu começo</title>
+  </head>
+  <body>
+    <script>
+      alert("Preencha os campos com seus dados");
+      const nome = prompt("Diga seu nome");
+      let idade = prompt("Diga sua idade");
+      idade = parseInt(idade);
+
+      let idadepassado = idade - 12;
+      let idadefuturo = idade + 28;
+
+      alert("Você terá " + idadefuturo + " anos de idade em 2050.");
+
+      if (idade < 12) alert("Você ainda não tinha nascido em 2010");
+      else alert("Você tinha " + idadepassado + " anos de idade em 2010");
+
+      //faltou fazer a idade multiplicada por 03, e saber quanto falta para completar 1000 anos.
+    </script>
+  </body>
+</html>
