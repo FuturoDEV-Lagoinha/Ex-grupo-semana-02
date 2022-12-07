@@ -42,22 +42,25 @@ justify-content: center;
     
 width: 100%;
 height: 550%;
-background-image: url(por.jpg);
+background-image: url(fotocapa.jpg);
 background-size: 100%;
 background-repeat: no-repeat;
 display: flex;
 flex-direction: column;
+
 
 }
 h1{
     font-size: 50px;
     text-align: center;
     color:white;
+    
 }   
 h4{
     font-size: 40px;
     text-align: center;
     color:white;
+   
 }
 section1 p{
     font-size: 30px;
@@ -78,7 +81,7 @@ main section2{
 button1{
     height: 30%;
     width: 20%;
-   background-color: #F2B677;
+   background-color: #95B7DC;
     color:white;
     font-size: 22px;
     cursor: pointer;
