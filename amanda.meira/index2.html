@@ -8,12 +8,17 @@
   </head>
   <body>
     <script>
-      let nome = "";
-      while (nome.length < 3) {
-        nome = prompt("qual seu nome?");
+      let numero = parseInt(prompt("digite um número"));
+      if (numero > 58) {
+        alert("resultado: " + numero * 10);
       }
-      alert("bem vindo " + nome);
+      if (numero < 50) {
+        while (numero < 1000) {
+          numero = numero * 2;
+        }
 
+        alert("resultado: " + numero);
+      }
       //se maior que 50
       //  somar ele a ele mersmo 10 vezes
       //se menor que 50
